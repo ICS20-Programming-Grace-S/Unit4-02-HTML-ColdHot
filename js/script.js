@@ -20,10 +20,10 @@ function displayCelsius () {
 
   // determine the response based on the guessed number
 	if (degCelsius >= MAX) {
-     response = " Something is off... either glaciers are disappearing or you're a liar!!!!!!!!!! "
+    response = " Something is off... either glaciers are disappearing or you're a liar!!!!!!!!!! "
 
   } else if (degCelsius <= MIN_TEMP){
-    response =" It’s extremely cold outside. Are you sure your still alive? "
+    response =" It’s extremely cold outside. Are you sure you're still alive? "
 
   }  else if (degCelsius >= MIN) {
 		response = " It is going to be a hot day!!! Wear sunglasses and light outerwear. "
